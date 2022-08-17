@@ -1,0 +1,339 @@
+digraph history {
+graph [nodesep=1.5, ranksep=1.5];
+0 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="normal_move = 5,warpdrive = 20,asteroid_hit = 10,\nGRID_X = \{1,2,3,4,5,6,7,8,9,10,11,12\},GRID_Y = \{1,2,3,4,5,6,7\},ASTEROIDS = \{(3\|-\>2),(3\|-\>5),(5\|-\>4),(6\|-\>7),(7\|-\>1),(7\|-\>5),(7\|-\>7),(8\|-\>3),(10\|-\>6),(11\|-\>2),(12\|-\>5)\},\nstarbase = (6\|-\>4),homebase = (1\|-\>1)"];
+
+1 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="repeated (5)\ncollisions = 0,power = 0,spaceship_route(1) = (1\|-\>1),\nspaceship_x = 1,spaceship_y = 1"];
+
+2 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="repeated (12)\ncollisions = 0,power = 40,spaceship_route(1) = (1\|-\>1),\nspaceship_x = 1,spaceship_y = 1"];
+
+22 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="repeated (2)\ncollisions = 0,power = 60,spaceship_route(1) = (1\|-\>1),\nspaceship_x = 1,spaceship_y = 1"];
+
+37 [shape=doubleoctagon, color="#99BF38", fontsize=12, penwidth=2, label="collisions = 0,power = 75,spaceship_route(1) = (1\|-\>1),\nspaceship_x = 1,spaceship_y = 1"];
+
+42 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="repeated (2)\ncollisions = 0,power = 35,spaceship_route(1) = (1\|-\>1),\nspaceship_route(2) = (1\|-\>2),spaceship_x = 1,spaceship_y = 2"];
+
+43 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="collisions = 0,power = 35,spaceship_route(1) = (1\|-\>1),\nspaceship_route(2) = (2\|-\>1),spaceship_x = 2,spaceship_y = 1"];
+
+56 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="collisions = 0,power = 30,spaceship_route(1) = (1\|-\>1),\nspaceship_route(2) = (2\|-\>1),spaceship_route(3) = (3\|-\>1),spaceship_x = 3,\nspaceship_y = 1"];
+
+70 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="collisions = 0,power = 25,spaceship_route(1) = (1\|-\>1),\nspaceship_route(2) = (2\|-\>1),spaceship_route(3) = (3\|-\>1),spaceship_route(4) = (4\|-\>1),\nspaceship_x = 4,spaceship_y = 1"];
+
+83 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="collisions = 0,power = 20,spaceship_route(1) = (1\|-\>1),\nspaceship_route(2) = (2\|-\>1),spaceship_route(3) = (3\|-\>1),spaceship_route(4) = (4\|-\>1),\nspaceship_route(5) = (5\|-\>1),spaceship_x = 5,spaceship_y = 1"];
+
+97 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="collisions = 0,power = 15,spaceship_route(1) = (1\|-\>1),\nspaceship_route(2) = (2\|-\>1),spaceship_route(3) = (3\|-\>1),spaceship_route(4) = (4\|-\>1),\nspaceship_route(5) = (5\|-\>1),spaceship_route(6) = (6\|-\>1),spaceship_x = 6,\nspaceship_y = 1"];
+
+110 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="collisions = 0,power = 10,spaceship_route(1) = (1\|-\>1),\nspaceship_route(2) = (2\|-\>1),spaceship_route(3) = (3\|-\>1),spaceship_route(4) = (4\|-\>1),\nspaceship_route(5) = (5\|-\>1),spaceship_route(6) = (6\|-\>1),spaceship_route(7) = (6\|-\>2),\nspaceship_x = 6,spaceship_y = 2"];
+
+113 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="collisions = 0,power = 5,spaceship_route(1) = (1\|-\>1),\nspaceship_route(2) = (2\|-\>1),spaceship_route(3) = (3\|-\>1),spaceship_route(4) = (4\|-\>1),\nspaceship_route(5) = (5\|-\>1),spaceship_route(6) = (6\|-\>1),spaceship_route(7) = (6\|-\>2),\nspaceship_route(8) = (6\|-\>3),spaceship_x = 6,spaceship_y = 3"];
+
+117 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="repeated (8)\ncollisions = 0,power = 0,spaceship_route(1) = (1\|-\>1),\nspaceship_route(2) = (2\|-\>1),spaceship_route(3) = (3\|-\>1),spaceship_route(4) = (4\|-\>1),\nspaceship_route(5) = (5\|-\>1),spaceship_route(6) = (6\|-\>1),spaceship_route(7) = (6\|-\>2),\nspaceship_route(8) = (6\|-\>3),spaceship_route(9) = (6\|-\>4),spaceship_x = 6,\nspaceship_y = 4"];
+
+121 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="repeated (8)\ncollisions = 0,power = 20,spaceship_route(1) = (1\|-\>1),\nspaceship_route(2) = (6\|-\>4),spaceship_x = 6,spaceship_y = 4"];
+
+122 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="repeated (4)\ncollisions = 0,power = 100,spaceship_route(1) = (1\|-\>1),\nspaceship_x = 1,spaceship_y = 1"];
+
+123 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="repeated (3)\ncollisions = 0,power = 95,spaceship_route(1) = (1\|-\>1),\nspaceship_route(2) = (1\|-\>2),spaceship_x = 1,spaceship_y = 2"];
+
+136 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="repeated (2)\ncollisions = 0,power = 90,spaceship_route(1) = (1\|-\>1),\nspaceship_route(2) = (1\|-\>2),spaceship_route(3) = (1\|-\>3),spaceship_x = 1,\nspaceship_y = 3"];
+
+138 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="collisions = 0,power = 90,spaceship_route(1) = (1\|-\>1),\nspaceship_route(2) = (1\|-\>2),spaceship_route(3) = (2\|-\>2),spaceship_x = 2,\nspaceship_y = 2"];
+
+153 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="repeated (2)\ncollisions = 0,power = 85,spaceship_route(1) = (1\|-\>1),\nspaceship_route(2) = (1\|-\>2),spaceship_route(3) = (1\|-\>3),spaceship_route(4) = (2\|-\>3),\nspaceship_x = 2,spaceship_y = 3"];
+
+168 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="repeated (2)\ncollisions = 0,power = 80,spaceship_route(1) = (1\|-\>1),\nspaceship_route(2) = (1\|-\>2),spaceship_route(3) = (1\|-\>3),spaceship_route(4) = (2\|-\>3),\nspaceship_route(5) = (3\|-\>3),spaceship_x = 3,spaceship_y = 3"];
+
+184 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="collisions = 0,power = 75,spaceship_route(1) = (1\|-\>1),\nspaceship_route(2) = (1\|-\>2),spaceship_route(3) = (1\|-\>3),spaceship_route(4) = (2\|-\>3),\nspaceship_route(5) = (3\|-\>3),spaceship_route(6) = (4\|-\>3),spaceship_x = 4,\nspaceship_y = 3"];
+
+185 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="collisions = 0,power = 75,spaceship_route(1) = (1\|-\>1),\nspaceship_route(2) = (1\|-\>2),spaceship_route(3) = (1\|-\>3),spaceship_route(4) = (2\|-\>3),\nspaceship_route(5) = (3\|-\>3),spaceship_route(6) = (2\|-\>3),spaceship_x = 2,\nspaceship_y = 3"];
+
+198 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="collisions = 0,power = 70,spaceship_route(1) = (1\|-\>1),\nspaceship_route(2) = (1\|-\>2),spaceship_route(3) = (1\|-\>3),spaceship_route(4) = (2\|-\>3),\nspaceship_route(5) = (3\|-\>3),spaceship_route(6) = (2\|-\>3),spaceship_route(7) = (2\|-\>2),\nspaceship_x = 2,spaceship_y = 2"];
+
+214 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="repeated (2)\ncollisions = 0,power = 65,spaceship_route(1) = (1\|-\>1),\nspaceship_route(2) = (1\|-\>2),spaceship_route(3) = (1\|-\>3),spaceship_route(4) = (2\|-\>3),\nspaceship_route(5) = (3\|-\>3),spaceship_route(6) = (2\|-\>3),spaceship_route(7) = (2\|-\>2),\nspaceship_route(8) = (2\|-\>1),spaceship_x = 2,spaceship_y = 1"];
+
+230 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="collisions = 0,power = 60,spaceship_route(1) = (1\|-\>1),\nspaceship_route(2) = (1\|-\>2),spaceship_route(3) = (1\|-\>3),spaceship_route(4) = (2\|-\>3),\nspaceship_route(5) = (3\|-\>3),spaceship_route(6) = (2\|-\>3),spaceship_route(7) = (2\|-\>2),\nspaceship_route(8) = (2\|-\>1),spaceship_route(9) = (1\|-\>1),spaceship_x = 1,\nspaceship_y = 1"];
+
+248 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="collisions = 0,power = 40,spaceship_route(1) = (1\|-\>1),\nspaceship_route(2) = (1\|-\>2),spaceship_route(3) = (1\|-\>3),spaceship_route(4) = (2\|-\>3),\nspaceship_route(5) = (3\|-\>3),spaceship_route(6) = (2\|-\>3),spaceship_route(7) = (2\|-\>2),\nspaceship_route(8) = (2\|-\>1),spaceship_route(9) = (1\|-\>1),spaceship_route(10) = (6\|-\>1),\nspaceship_x = 6,spaceship_y = 1"];
+
+255 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="collisions = 0,power = 35,spaceship_route(1) = (1\|-\>1),\nspaceship_route(2) = (1\|-\>2),spaceship_route(3) = (1\|-\>3),spaceship_route(4) = (2\|-\>3),\nspaceship_route(5) = (3\|-\>3),spaceship_route(6) = (2\|-\>3),spaceship_route(7) = (2\|-\>2),\nspaceship_route(8) = (2\|-\>1),spaceship_route(9) = (1\|-\>1),spaceship_route(10) = (6\|-\>1),\nspaceship_route(11) = (6\|-\>2),spaceship_x = 6,spaceship_y = 2"];
+
+268 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="collisions = 0,power = 30,spaceship_route(1) = (1\|-\>1),\nspaceship_route(2) = (1\|-\>2),spaceship_route(3) = (1\|-\>3),spaceship_route(4) = (2\|-\>3),\nspaceship_route(5) = (3\|-\>3),spaceship_route(6) = (2\|-\>3),spaceship_route(7) = (2\|-\>2),\nspaceship_route(8) = (2\|-\>1),spaceship_route(9) = (1\|-\>1),spaceship_route(10) = (6\|-\>1),\nspaceship_route(11) = (6\|-\>2),spaceship_route(12) = (6\|-\>3),spaceship_x = 6,\nspaceship_y = 3"];
+
+284 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="repeated (5)\ncollisions = 0,power = 25,spaceship_route(1) = (1\|-\>1),\nspaceship_route(2) = (1\|-\>2),spaceship_route(3) = (1\|-\>3),spaceship_route(4) = (2\|-\>3),\nspaceship_route(5) = (3\|-\>3),spaceship_route(6) = (2\|-\>3),spaceship_route(7) = (2\|-\>2),\nspaceship_route(8) = (2\|-\>1),spaceship_route(9) = (1\|-\>1),spaceship_route(10) = (6\|-\>1),\nspaceship_route(11) = (6\|-\>2),spaceship_route(12) = (6\|-\>3),spaceship_route(13) = (6\|-\>4),\nspaceship_x = 6,spaceship_y = 4"];
+
+301 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="collisions = 0,power = 70,spaceship_route(1) = (1\|-\>1),\nspaceship_route(2) = (1\|-\>2),spaceship_route(3) = (1\|-\>3),spaceship_route(4) = (2\|-\>3),\nspaceship_route(5) = (3\|-\>3),spaceship_route(6) = (4\|-\>3),spaceship_route(7) = (4\|-\>2),\nspaceship_x = 4,spaceship_y = 2"];
+
+317 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="collisions = 0,power = 65,spaceship_route(1) = (1\|-\>1),\nspaceship_route(2) = (1\|-\>2),spaceship_route(3) = (1\|-\>3),spaceship_route(4) = (2\|-\>3),\nspaceship_route(5) = (3\|-\>3),spaceship_route(6) = (4\|-\>3),spaceship_route(7) = (4\|-\>2),\nspaceship_route(8) = (4\|-\>1),spaceship_x = 4,spaceship_y = 1"];
+
+333 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="collisions = 0,power = 60,spaceship_route(1) = (1\|-\>1),\nspaceship_route(2) = (1\|-\>2),spaceship_route(3) = (1\|-\>3),spaceship_route(4) = (2\|-\>3),\nspaceship_route(5) = (3\|-\>3),spaceship_route(6) = (4\|-\>3),spaceship_route(7) = (4\|-\>2),\nspaceship_route(8) = (4\|-\>1),spaceship_route(9) = (3\|-\>1),spaceship_x = 3,\nspaceship_y = 1"];
+
+347 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="collisions = 0,power = 55,spaceship_route(1) = (1\|-\>1),\nspaceship_route(2) = (1\|-\>2),spaceship_route(3) = (1\|-\>3),spaceship_route(4) = (2\|-\>3),\nspaceship_route(5) = (3\|-\>3),spaceship_route(6) = (4\|-\>3),spaceship_route(7) = (4\|-\>2),\nspaceship_route(8) = (4\|-\>1),spaceship_route(9) = (3\|-\>1),spaceship_route(10) = (2\|-\>1),\nspaceship_x = 2,spaceship_y = 1"];
+
+372 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="repeated (7)\ncollisions = 0,power = 35,spaceship_route(1) = (1\|-\>1),\nspaceship_route(2) = (1\|-\>2),spaceship_route(3) = (1\|-\>3),spaceship_route(4) = (2\|-\>3),\nspaceship_route(5) = (3\|-\>3),spaceship_route(6) = (4\|-\>3),spaceship_route(7) = (4\|-\>2),\nspaceship_route(8) = (4\|-\>1),spaceship_route(9) = (3\|-\>1),spaceship_route(10) = (2\|-\>1),\nspaceship_route(11) = (6\|-\>4),spaceship_x = 6,spaceship_y = 4"];
+
+374 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="collisions = 0,power = 30,spaceship_route(1) = (1\|-\>1),\nspaceship_route(2) = (1\|-\>2),spaceship_route(3) = (1\|-\>1),spaceship_x = 1,\nspaceship_y = 1"];
+
+376 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="collisions = 0,power = 15,spaceship_route(1) = (1\|-\>1),\nspaceship_route(2) = (1\|-\>2),spaceship_route(3) = (1\|-\>1),spaceship_x = 1,\nspaceship_y = 1"];
+
+389 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="collisions = 0,power = 10,spaceship_route(1) = (1\|-\>1),\nspaceship_route(2) = (1\|-\>2),spaceship_route(3) = (1\|-\>1),spaceship_route(4) = (2\|-\>1),\nspaceship_x = 2,spaceship_y = 1"];
+
+391 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="collisions = 0,power = 5,spaceship_route(1) = (1\|-\>1),\nspaceship_route(2) = (1\|-\>2),spaceship_route(3) = (1\|-\>1),spaceship_route(4) = (2\|-\>1),\nspaceship_route(5) = (3\|-\>1),spaceship_x = 3,spaceship_y = 1"];
+
+394 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="repeated (7)\ncollisions = 0,power = 0,spaceship_route(1) = (1\|-\>1),\nspaceship_route(2) = (1\|-\>2),spaceship_route(3) = (1\|-\>1),spaceship_route(4) = (2\|-\>1),\nspaceship_route(5) = (3\|-\>1),spaceship_route(6) = (4\|-\>1),spaceship_x = 4,\nspaceship_y = 1"];
+
+398 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="collisions = 1,power = 80,spaceship_route(1) = (1\|-\>1),\nspaceship_route(2) = (1\|-\>2),spaceship_route(3) = (2\|-\>2),spaceship_x = 2,\nspaceship_y = 2"];
+
+414 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="collisions = 1,power = 75,spaceship_route(1) = (1\|-\>1),\nspaceship_route(2) = (1\|-\>2),spaceship_route(3) = (2\|-\>2),spaceship_route(4) = (1\|-\>2),\nspaceship_x = 1,spaceship_y = 2"];
+
+426 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="collisions = 1,power = 70,spaceship_route(1) = (1\|-\>1),\nspaceship_route(2) = (1\|-\>2),spaceship_route(3) = (2\|-\>2),spaceship_route(4) = (1\|-\>2),\nspaceship_route(5) = (1\|-\>3),spaceship_x = 1,spaceship_y = 3"];
+
+441 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="collisions = 1,power = 65,spaceship_route(1) = (1\|-\>1),\nspaceship_route(2) = (1\|-\>2),spaceship_route(3) = (2\|-\>2),spaceship_route(4) = (1\|-\>2),\nspaceship_route(5) = (1\|-\>3),spaceship_route(6) = (1\|-\>4),spaceship_x = 1,\nspaceship_y = 4"];
+
+465 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="collisions = 2,power = 55,spaceship_route(1) = (1\|-\>1),\nspaceship_route(2) = (1\|-\>2),spaceship_route(3) = (2\|-\>2),spaceship_route(4) = (1\|-\>2),\nspaceship_route(5) = (1\|-\>3),spaceship_route(6) = (1\|-\>4),spaceship_x = 1,\nspaceship_y = 4"];
+
+479 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="collisions = 2,power = 35,spaceship_route(1) = (1\|-\>1),\nspaceship_route(2) = (1\|-\>2),spaceship_route(3) = (2\|-\>2),spaceship_route(4) = (1\|-\>2),\nspaceship_route(5) = (1\|-\>3),spaceship_route(6) = (1\|-\>4),spaceship_route(7) = (6\|-\>1),\nspaceship_x = 6,spaceship_y = 1"];
+
+486 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="collisions = 2,power = 30,spaceship_route(1) = (1\|-\>1),\nspaceship_route(2) = (1\|-\>2),spaceship_route(3) = (2\|-\>2),spaceship_route(4) = (1\|-\>2),\nspaceship_route(5) = (1\|-\>3),spaceship_route(6) = (1\|-\>4),spaceship_route(7) = (6\|-\>1),\nspaceship_route(8) = (6\|-\>2),spaceship_x = 6,spaceship_y = 2"];
+
+499 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="collisions = 2,power = 25,spaceship_route(1) = (1\|-\>1),\nspaceship_route(2) = (1\|-\>2),spaceship_route(3) = (2\|-\>2),spaceship_route(4) = (1\|-\>2),\nspaceship_route(5) = (1\|-\>3),spaceship_route(6) = (1\|-\>4),spaceship_route(7) = (6\|-\>1),\nspaceship_route(8) = (6\|-\>2),spaceship_route(9) = (6\|-\>3),spaceship_x = 6,\nspaceship_y = 3"];
+
+515 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="repeated (7)\ncollisions = 2,power = 20,spaceship_route(1) = (1\|-\>1),\nspaceship_route(2) = (1\|-\>2),spaceship_route(3) = (2\|-\>2),spaceship_route(4) = (1\|-\>2),\nspaceship_route(5) = (1\|-\>3),spaceship_route(6) = (1\|-\>4),spaceship_route(7) = (6\|-\>1),\nspaceship_route(8) = (6\|-\>2),spaceship_route(9) = (6\|-\>3),spaceship_route(10) = (6\|-\>4),\nspaceship_x = 6,spaceship_y = 4"];
+
+537 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="collisions = 0,power = 40,spaceship_route(1) = (1\|-\>1),\nspaceship_route(2) = (6\|-\>1),spaceship_x = 6,spaceship_y = 1"];
+
+538 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="collisions = 1,power = 50,spaceship_route(1) = (1\|-\>1),\nspaceship_x = 1,spaceship_y = 1"];
+
+545 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="collisions = 1,power = 30,spaceship_route(1) = (1\|-\>1),\nspaceship_route(2) = (6\|-\>1),spaceship_x = 6,spaceship_y = 1"];
+
+557 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="collisions = 1,power = 25,spaceship_route(1) = (1\|-\>1),\nspaceship_route(2) = (6\|-\>1),spaceship_route(3) = (6\|-\>2),spaceship_x = 6,\nspaceship_y = 2"];
+
+573 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="collisions = 1,power = 20,spaceship_route(1) = (1\|-\>1),\nspaceship_route(2) = (6\|-\>1),spaceship_route(3) = (6\|-\>2),spaceship_route(4) = (5\|-\>2),\nspaceship_x = 5,spaceship_y = 2"];
+
+589 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="collisions = 1,power = 15,spaceship_route(1) = (1\|-\>1),\nspaceship_route(2) = (6\|-\>1),spaceship_route(3) = (6\|-\>2),spaceship_route(4) = (5\|-\>2),\nspaceship_route(5) = (4\|-\>2),spaceship_x = 4,spaceship_y = 2"];
+
+605 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="collisions = 2,power = 5,spaceship_route(1) = (1\|-\>1),\nspaceship_route(2) = (6\|-\>1),spaceship_route(3) = (6\|-\>2),spaceship_route(4) = (5\|-\>2),\nspaceship_route(5) = (4\|-\>2),spaceship_x = 4,spaceship_y = 2"];
+
+606 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="repeated (4)\ncollisions = 2,power = 0,spaceship_route(1) = (1\|-\>1),\nspaceship_route(2) = (6\|-\>1),spaceship_route(3) = (6\|-\>2),spaceship_route(4) = (5\|-\>2),\nspaceship_route(5) = (4\|-\>2),spaceship_route(6) = (4\|-\>3),spaceship_x = 4,\nspaceship_y = 3"];
+
+613 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="collisions = 1,power = 30,spaceship_route(1) = (1\|-\>1),\nspaceship_route(2) = (3\|-\>1),spaceship_x = 3,spaceship_y = 1"];
+
+622 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="collisions = 2,power = 20,spaceship_route(1) = (1\|-\>1),\nspaceship_route(2) = (3\|-\>1),spaceship_x = 3,spaceship_y = 1"];
+
+638 [shape=box, color="#99BF38", fontsize=12, penwidth=2, label="repeated (7)\ncollisions = 2,power = 0,spaceship_route(1) = (1\|-\>1),\nspaceship_route(2) = (3\|-\>1),spaceship_route(3) = (1\|-\>1),spaceship_x = 1,\nspaceship_y = 1"];
+
+root [shape=invtriangle, color="#99BF38", fontsize=12, penwidth=2, label="root"];
+
+root -> 0 [style = dotted, color = black, label="SETUP_CONSTANTS", fontsize=12];
+
+0 -> 1 [color = "#006391", label="INITIALISATION", fontsize=12];
+
+
+
+
+
+1 -> 2 [color = "#006391", label="NewGame(40)", fontsize=12];
+
+2 -> 2 [color = "#006391", label="NewGame(40)", fontsize=12];
+
+2 -> 2 [color = "#006391", label="NewGame(40)", fontsize=12];
+
+2 -> 2 [color = "#006391", label="NewGame(40)", fontsize=12];
+
+2 -> 2 [color = "#006391", label="NewGame(40)", fontsize=12];
+
+2 -> 43 [color = "#006391", label="MoveForward--\>MOVED_FORWARD", fontsize=12];
+
+43 -> 56 [color = "#006391", label="MoveForward--\>MOVED_FORWARD", fontsize=12];
+
+56 -> 70 [color = "#006391", label="MoveForward--\>MOVED_FORWARD", fontsize=12];
+
+70 -> 83 [color = "#006391", label="MoveForward--\>MOVED_FORWARD", fontsize=12];
+
+83 -> 97 [color = "#006391", label="MoveForward--\>MOVED_FORWARD", fontsize=12];
+
+97 -> 110 [color = "#006391", label="MoveUp--\>MOVED_UP", fontsize=12];
+
+110 -> 113 [color = "#006391", label="MoveUp--\>MOVED_UP", fontsize=12];
+
+113 -> 117 [color = "#006391", label="MoveUp--\>MOVED_UP", fontsize=12];
+
+
+
+
+
+
+
+
+117 -> 2 [color = "#006391", label="NewGame(40)", fontsize=12];
+
+2 -> 2 [color = "#006391", label="NewGame(40)", fontsize=12];
+
+2 -> 2 [color = "#006391", label="NewGame(40)", fontsize=12];
+
+2 -> 2 [color = "#006391", label="NewGame(40)", fontsize=12];
+
+2 -> 2 [color = "#006391", label="NewGame(40)", fontsize=12];
+
+2 -> 121 [color = "#006391", label="EngageWarpDrive(6,4)--\>WARPDRIVED", fontsize=12];
+
+
+
+
+
+
+
+
+121 -> 122 [color = "#006391", label="NewGame(100)", fontsize=12];
+
+122 -> 123 [color = "#006391", label="MoveUp--\>MOVED_UP", fontsize=12];
+
+123 -> 136 [color = "#006391", label="MoveUp--\>MOVED_UP", fontsize=12];
+
+136 -> 153 [color = "#006391", label="MoveForward--\>MOVED_FORWARD", fontsize=12];
+
+153 -> 168 [color = "#006391", label="MoveForward--\>MOVED_FORWARD", fontsize=12];
+
+168 -> 185 [color = "#006391", label="MoveBackward--\>MOVED_BACKWARD", fontsize=12];
+
+185 -> 198 [color = "#006391", label="MoveDown--\>MOVED_DOWN", fontsize=12];
+
+198 -> 214 [color = "#006391", label="MoveDown--\>MOVED_DOWN", fontsize=12];
+
+
+214 -> 230 [color = "#006391", label="MoveBackward--\>MOVED_BACKWARD", fontsize=12];
+
+230 -> 248 [color = "#006391", label="EngageWarpDrive(6,1)--\>WARPDRIVED", fontsize=12];
+
+248 -> 255 [color = "#006391", label="MoveUp--\>MOVED_UP", fontsize=12];
+
+255 -> 268 [color = "#006391", label="MoveUp--\>MOVED_UP", fontsize=12];
+
+268 -> 284 [color = "#006391", label="MoveUp--\>MOVED_UP", fontsize=12];
+
+
+
+
+
+284 -> 122 [color = "#006391", label="NewGame(100)", fontsize=12];
+
+
+122 -> 123 [color = "#006391", label="MoveUp--\>MOVED_UP", fontsize=12];
+
+123 -> 136 [color = "#006391", label="MoveUp--\>MOVED_UP", fontsize=12];
+
+136 -> 153 [color = "#006391", label="MoveForward--\>MOVED_FORWARD", fontsize=12];
+
+153 -> 168 [color = "#006391", label="MoveForward--\>MOVED_FORWARD", fontsize=12];
+
+168 -> 184 [color = "#006391", label="MoveForward--\>MOVED_FORWARD", fontsize=12];
+
+184 -> 301 [color = "#006391", label="MoveDown--\>MOVED_DOWN", fontsize=12];
+
+301 -> 317 [color = "#006391", label="MoveDown--\>MOVED_DOWN", fontsize=12];
+
+317 -> 333 [color = "#006391", label="MoveBackward--\>MOVED_BACKWARD", fontsize=12];
+
+333 -> 347 [color = "#006391", label="MoveBackward--\>MOVED_BACKWARD", fontsize=12];
+
+347 -> 372 [color = "#006391", label="EngageWarpDrive(6,4)--\>WARPDRIVED", fontsize=12];
+
+
+
+
+
+
+
+372 -> 2 [color = "#006391", label="NewGame(40)", fontsize=12];
+
+2 -> 42 [color = "#006391", label="MoveUp--\>MOVED_UP", fontsize=12];
+
+42 -> 376 [color = "#006391", label="EngageWarpDrive(1,1)--\>WARPDRIVED", fontsize=12];
+
+376 -> 389 [color = "#006391", label="MoveForward--\>MOVED_FORWARD", fontsize=12];
+
+389 -> 391 [color = "#006391", label="MoveForward--\>MOVED_FORWARD", fontsize=12];
+
+391 -> 394 [color = "#006391", label="MoveForward--\>MOVED_FORWARD", fontsize=12];
+
+
+
+
+
+
+
+394 -> 122 [color = "#006391", label="NewGame(100)", fontsize=12];
+
+122 -> 123 [color = "#006391", label="MoveUp--\>MOVED_UP", fontsize=12];
+
+123 -> 138 [color = "#006391", label="MoveForward--\>MOVED_FORWARD", fontsize=12];
+
+138 -> 398 [color = "#006391", label="MoveForward--\>ASTEROID_COLLISION", fontsize=12];
+138 -> 398 [color = "#006391", label="EngageWarpDrive(7,1)--\>ASTEROID_COLLISION", fontsize=12];
+
+398 -> 414 [color = "#006391", label="MoveBackward--\>MOVED_BACKWARD", fontsize=12];
+
+414 -> 426 [color = "#006391", label="MoveUp--\>MOVED_UP", fontsize=12];
+
+426 -> 441 [color = "#006391", label="MoveUp--\>MOVED_UP", fontsize=12];
+
+441 -> 465 [color = "#006391", label="EngageWarpDrive(7,1)--\>ASTEROID_COLLISION", fontsize=12];
+
+465 -> 479 [color = "#006391", label="EngageWarpDrive(6,1)--\>WARPDRIVED", fontsize=12];
+
+479 -> 486 [color = "#006391", label="MoveUp--\>MOVED_UP", fontsize=12];
+
+486 -> 499 [color = "#006391", label="MoveUp--\>MOVED_UP", fontsize=12];
+
+499 -> 515 [color = "#006391", label="MoveUp--\>MOVED_UP", fontsize=12];
+
+
+
+
+
+
+
+515 -> 22 [color = "#006391", label="NewGame(60)", fontsize=12];
+
+22 -> 537 [color = "#006391", label="EngageWarpDrive(6,1)--\>WARPDRIVED", fontsize=12];
+
+537 -> 545 [color = "#006391", label="MoveForward--\>ASTEROID_COLLISION", fontsize=12];
+537 -> 545 [color = "#006391", label="EngageWarpDrive(7,1)--\>ASTEROID_COLLISION", fontsize=12];
+
+545 -> 557 [color = "#006391", label="MoveUp--\>MOVED_UP", fontsize=12];
+
+557 -> 573 [color = "#006391", label="MoveBackward--\>MOVED_BACKWARD", fontsize=12];
+
+573 -> 589 [color = "#006391", label="MoveBackward--\>MOVED_BACKWARD", fontsize=12];
+
+589 -> 605 [color = "#006391", label="MoveBackward--\>ASTEROID_COLLISION", fontsize=12];
+
+605 -> 606 [color = "#006391", label="MoveUp--\>MOVED_UP", fontsize=12];
+
+
+
+
+606 -> 22 [color = "#006391", label="NewGame(60)", fontsize=12];
+
+22 -> 538 [color = "#006391", label="EngageWarpDrive(7,1)--\>ASTEROID_COLLISION", fontsize=12];
+
+538 -> 613 [color = "#006391", label="EngageWarpDrive(3,1)--\>WARPDRIVED", fontsize=12];
+
+613 -> 622 [color = "#006391", label="MoveUp--\>ASTEROID_COLLISION", fontsize=12];
+613 -> 622 [color = "#006391", label="EngageWarpDrive(7,1)--\>ASTEROID_COLLISION", fontsize=12];
+
+622 -> 638 [color = "#006391", label="EngageWarpDrive(1,1)--\>WARPDRIVED", fontsize=12];
+
+
+
+
+
+
+
+638 -> 2 [color = "#006391", label="NewGame(40)", fontsize=12];
+
+2 -> 42 [color = "#006391", label="MoveUp--\>MOVED_UP", fontsize=12];
+
+42 -> 374 [color = "#006391", label="MoveDown--\>MOVED_DOWN", fontsize=12];
+
+374 -> 37 [color = "#006391", label="NewGame(75)", fontsize=12];
+
+}
